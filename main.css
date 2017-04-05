@@ -1,0 +1,225 @@
+* {
+    font-family: "Lato", sans-serif;
+}
+/* image classes */
+
+.validator_img {
+
+    border:0;
+
+    width:88px;
+
+    height:31px
+
+}
+
+.header_logo {
+
+    float: left;
+
+    min-width: 37px;
+
+    max-width: 100%;
+
+    margin-top: 1.5em;
+}
+.hero {
+
+    padding-top: 30px;
+
+    padding-bottom: 30px;
+
+    margin-right: auto;
+
+    margin-left: auto;
+
+    max-width: 100%;
+}
+.project_image {
+
+    max-width: 100%
+}
+/*text classes*/
+
+.project_head {
+
+    color: #2d3c49;
+}
+/* div classes */
+
+.hr_replace{
+    border-bottom: 4px solid #7d97ad
+}
+
+.my_headings {
+
+    float: right;
+
+    color: #2d3c49;
+
+    text-align: right;
+
+    text-transform: uppercase;
+
+    margin-top: 5px;
+}
+/* general formating */
+
+h1 {
+
+    font-weight: 200;
+
+    color: #2d3c49;
+}
+h2 {
+
+    color: #7d97ad;
+}
+hr {
+
+    display: block;
+
+    margin: auto;
+
+    border: none;
+
+    background-color: #7d97ad;
+
+    color: #7d97ad;
+
+    height: 4px;
+}
+p {
+
+    font-size: 1em;
+
+    color: #2d3c49
+}
+
+/* flex classes */
+
+.container {
+
+    display: inline-flex;
+
+    flex-wrap: wrap;
+
+    width: 100%;
+
+    text-transform: uppercase;
+}
+.project-1 {
+
+    order: 1;
+
+    width: 100%;
+
+    text-align: center;
+}
+.project-2 {
+
+    order: 2;
+
+    width: 100%;
+
+    text-align: center;
+}
+.project-3 {
+
+    order: 3;
+
+    width: 100%;
+
+    text-align: center;
+}
+
+/*media queries */
+
+/* this media querie was used to make the page look
+like the mock up when the screen is on a higher resoloution
+but when onmobile it is a lot more presentable for that format */
+
+@media screen and (min-width: 450px) {
+    .project-1,
+    .project-2,
+    .project-3 {
+
+        width: 30%;
+
+        margin-right: auto;
+
+        margin-left: auto;
+    }
+}
+
+/* framework */
+
+* {
+    /*border: 1px solid red !important;
+    this was used to help see the structure as i was
+    building the page*/
+}
+.grid {
+
+    margin: auto;
+
+    max-width: 1200px;
+
+    min-width: 300px;
+}
+.row {
+
+    width: 100%;
+
+    margin-bottom: 20px;
+
+    display: flex;
+}
+.col-1 {
+
+    width: 8.33%;
+}
+.col-2 {
+
+    width: 16.66%;
+}
+.col-3 {
+
+    width: 25%;
+}
+.col-4 {
+
+    width: 33.33%;
+}
+.col-5 {
+
+    width: 41.66%;
+}
+.col-6 {
+
+    width: 50%;
+}
+.col-7 {
+
+    width: 58.33%;
+}
+.col-8 {
+
+    width: 66.66%;
+}
+.col-9 {
+
+    width: 75%;
+}
+.col-10 {
+
+    width: 83.33%;
+}
+.col-11 {
+
+    width: 91.66%;
+}
+.col-12 {
+
+    width: 100%;
+}
